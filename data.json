@@ -1,0 +1,92 @@
+{
+    "objects": [
+        {
+            "name": "Mercury",
+            "radius": 15,
+            "color": "gray",
+            "position": { "x": 80, "y": 300, "z": 0 },
+            "info": "Mercury<br>Type: Rocky<br>Diameter: 4,880 km<br>Atmosphere: Rare, mostly oxygen and sodium.<br>Surface Temperature: -173°C to 427°C.<br><br><br>Mercury is the smallest planet in the Solar System, known for its dense iron core and cratered, volcanic surface. It takes 88 days to orbit the Sun, and its rotation period is 59 days, meaning a single day on Mercury is almost two Earth years long. The planet experiences extreme temperature fluctuations due to its thin atmosphere, with daytime temperatures soaring to 430 °C and nighttime temperatures plunging to -180 °C. NASA's Mariner 10 and MESSENGER missions have provided detailed insights into Mercury's surface and geological features.",
+            "texture": "mercury_texture.jpg",
+            "realDistance": 57900000,
+            "orbitalPeriod": 0.24,
+            "eccentricity": 0.205
+        },
+        {
+            "name": "Venus",
+            "radius": 30,
+            "color": "yellow",
+            "position": { "x": 150, "y": 300, "z": 0 },
+            "info": "Venus<br>Type: Rocky<br>Diameter: 12,104 km<br>Atmosphere: Dense, carbon dioxide and nitrogen.<br>Surface Temperature: 465°C on average.<br><br><br>Venus, the second largest planet in the Solar System, has a size and structure similar to Earth, with a diameter of approximately 12,104 kilometers. Its surface is obscured by a thick layer of clouds primarily composed of sulfuric acid droplets, and it boasts an average temperature of 465 °C, making it the hottest planet in the Solar System. Venus orbits the Sun in 225 days, but its rotation around its own axis takes 243 days, resulting in a day on Venus being longer than a year; it also rotates in the opposite direction, causing the Sun to rise in the east and set in the west. The planet's atmosphere, rich in carbon dioxide and nitrogen, exerts a pressure about 92 times greater than that of Earth, rendering it extremely inhospitable for life. Numerous spacecraft have explored Venus, including NASA's Magellan mission, which mapped the planet's surface using radar from 1989 to 1994.",
+            "texture": "venus_texture.jpg",
+            "realDistance": 108200000,
+            "orbitalPeriod": 0.62,
+            "eccentricity": 0.006
+        },
+        {
+            "name": "Earth",
+            "radius": 30,
+            "color": "blue",
+            "position": { "x": 220, "y": 300, "z": 0 },
+            "info": "Earth<br>Type: Rocky<br>Diameter: 12,742 km<br>Atmosphere: N2, O2, CO2 and other gases.<br>Surface temperature: 15°C on average.<br><br><br>Earth, the fifth largest planet in the Solar System, has a diameter of about 12,742 kilometers and is composed of an iron and nickel core, a silicate mineral mantle, and a crust featuring both land and water surfaces. Its atmosphere, made up of approximately 78% nitrogen and 21% oxygen, supports life by regulating temperature and filtering sunlight. The planet orbits the Sun every 365.25 days while rotating on its axis in 24 hours, creating the day and night cycle. Covering about 71% of its surface, Earth's abundant bodies of water contribute to its status as the most life-friendly planet in the Solar System, where a diverse array of life forms has evolved over millions of years. NASA has launched numerous satellites and missions to study Earth, including Earth observation satellites that gather data on climate, weather, and natural disasters. Earth has one natural satellite, the Moon.",
+            "texture": "earth_texture.jpg",
+            "realDistance": 149600000,
+            "orbitalPeriod": 1,
+            "eccentricity": 0.0167
+        },
+        {
+            "name": "Mars",
+            "radius": 25,
+            "color": "red",
+            "position": { "x": 300, "y": 300, "z": 0 },
+            "info": "Mars<br>Type: Rocky<br>Diameter: 6,779 km<br>Atmosphere: Thin, mostly carbon dioxide.<br>Surface Temperature: -125°C to 20°C.<br><br><br>Mars, the fourth planet in the Solar System, has a diameter of about 6,779 kilometers, making it roughly half the size of Earth. Its surface features numerous volcanoes, craters, and vast valleys. The atmosphere of Mars is very thin, primarily composed of 95% carbon dioxide, along with 2.7% nitrogen and 1.6% argon, which makes it challenging for water to exist in liquid form. Average temperatures on Mars hover around -80 °C, but can reach as high as 20 °C in summer in the equatorial regions and drop to -125 °C at the poles. Mars orbits the Sun every 687 days, and its rotation period is about 24.6 hours, resulting in a day on Mars that is quite similar to an Earth day. The planet has two moons, Phobos and Deimos.",
+            "texture": "mars_texture.jpg",
+            "realDistance": 227900000,
+            "orbitalPeriod": 1.88,
+            "eccentricity": 0.093
+        },
+        {
+            "name": "Jupiter",
+            "radius": 40,
+            "color": "orange",
+            "position": { "x": 400, "y": 300, "z": 0 },
+            "info": "Jupiter<br>Type: Gas giant<br>Diameter: 139,820 km<br>Atmosphere: Hydrogen, helium, methane.<br>Surface temperature: Approximately -145°C.<br><br><br>Jupiter, the largest planet in the Solar System, has a diameter of about 139,820 kilometers and is mostly composed of hydrogen and helium. Its atmosphere features storms, including the famous Great Red Spot, and temperatures in the upper atmosphere reach around -145 °C. Jupiter orbits the Sun every 11.86 years and rotates rapidly in just 9.9 hours. NASA's Juno mission has been studying its atmosphere and moons since 2016. Jupiter has over 79 moons, with the largest being the Galilean moons: Io, Europa, Ganymede, and Callisto.",
+            "texture": "jupiter_texture.jpg",
+            "realDistance": 778500000,
+            "orbitalPeriod": 11.86,
+            "eccentricity": 0.049
+        },
+        {
+            "name": "Saturn",
+            "radius": 35,
+            "color": "golden",
+            "position": { "x": 500, "y": 300, "z": 0 },
+            "info": "Saturn<br>Type: Gas giant<br>Diameter: 116,460 km<br>Atmosphere: Hydrogen, helium.<br>Surface temperature: Approximately -178°C.<br><br><br>Saturn, the second largest planet in the Solar System, has a diameter of about 116,460 kilometers and is a gas giant primarily composed of hydrogen and helium. Its atmosphere, mainly consisting of 96% hydrogen, features strong storms and winds, with temperatures around -178 °C in the upper atmosphere. Saturn orbits the Sun every 29.5 years and rotates rapidly in just 10.7 hours. NASA's Cassini-Huygens mission studied Saturn and its moons from 2004 to 2017, with Huygens landing on Titan, Saturn's largest moon, which has a thick atmosphere and lakes of liquid methane. Saturn has more than 80 moons.",
+            "texture": "saturn_texture.jpg",
+            "realDistance": 1433000000,
+            "orbitalPeriod": 29.45,
+            "eccentricity": 0.056
+        },
+        {
+            "name": "Uranus",
+            "radius": 30,
+            "color": "lightblue",
+            "position": { "x": 600, "y": 300, "z": 0 },
+            "info": "Uranus<br>Type: Ice giant<br>Diameter: 50,724 km<br>Atmosphere: Hydrogen, helium, methane.<br>Surface temperature: Approximately -224°C.<br><br><br>Uranus, the seventh planet of the Solar System, has a diameter of about 50,724 kilometers and is classified as a gas giant, primarily composed of hydrogen, helium, and methane gases. The planet appears blue-green due to the presence of methane in its atmosphere, which features thin cloud layers and storms; however, these storms are less pronounced compared to those on Jupiter and Saturn. Uranus completes an orbit around the Sun every 84 years and takes approximately 17 hours to rotate on its axis. The planet has up to 27 moons, with the largest being Titania, Oberon, Umbriel, Ariel, and Miranda, most of which are composed of water ice and rock. Discovered by William Herschel in 1781, Uranus was later studied by NASA's Voyager 2 spacecraft, which flew by the planet in 1986 and gathered significant data about its composition and characteristics.",
+            "texture": "uranus_texture.jpg",
+            "realDistance": 2871000000,
+            "orbitalPeriod": 84.02,
+            "eccentricity": 0.046
+        },
+        {
+            "name": "Neptune",
+            "radius": 30,
+            "color": "darkblue",
+            "position": { "x": 700, "y": 300, "z": 0 },
+            "info": "Neptune<br>Type: Ice giant<br>Diameter: 49,244 km<br>Atmosphere: Hydrogen, helium, methane.<br>Surface temperature: Approximately -214°C.<br><br><br>Neptune, the eighth planet of the Solar System, has a diameter of about 49,244 kilometers and is classified as a gas giant, primarily composed of hydrogen, helium, and methane gases. Its striking blue color results from the presence of methane in its atmosphere, which is characterized by dense clouds and powerful storms. One of Neptune's most notable features is its high-speed winds, which can reach speeds of up to 2,100 kilometers per hour. Neptune completes an orbit around the Sun every 165 years, while its rotation period is approximately 16 hours. Discovered in 1846 by Johann Galle and Heinrich d'Arrest, Neptune was later studied by NASA's Voyager 2 spacecraft, which flew by the planet in 1989 and collected valuable data. Neptune has up to 14 moons, with Triton being the largest; it is unique for orbiting the planet in the opposite direction and is thought to be a fragment that broke off from a comet.",
+            "texture": "neptune_texture.jpg",
+            "realDistance": 4504000000,
+            "orbitalPeriod": 164.8,
+            "eccentricity": 0.009
+        }
+    ]
+}

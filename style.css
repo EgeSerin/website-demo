@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#space-map {
+    flex: 3;
+    background-color: #000000;
+}
+
+.info-panel {
+    flex: 1;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.star-map-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#open-star-map {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#open-star-map:hover {
+    background-color: #555;
+}
